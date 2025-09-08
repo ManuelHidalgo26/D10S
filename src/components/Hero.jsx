@@ -2,6 +2,8 @@ import React from 'react';
 import hero from '../assets/images/hero-argentina.jpg';
 import CtaButton from './CtaButton';
 
+const { VITE_PANCAKESWAP_URL, VITE_UNISWAP_URL } = import.meta.env;
+
 const Hero = () => {
   return (
     <section
@@ -17,8 +19,8 @@ const Hero = () => {
           Una cripto alegre, cultural y comunitaria, inspirada en Argentina.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <CtaButton href="https://pancakeswap.finance/">Comprar en PancakeSwap</CtaButton>
-          <CtaButton href="https://app.uniswap.org/" variant="outline">
+          <CtaButton href={VITE_PANCAKESWAP_URL}>Comprar en PancakeSwap</CtaButton>
+          <CtaButton href={VITE_UNISWAP_URL} variant="outline">
             Comprar en Uniswap
           </CtaButton>
         </div>

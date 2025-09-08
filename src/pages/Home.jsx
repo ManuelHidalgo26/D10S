@@ -5,6 +5,8 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 import CtaButton from '../components/CtaButton';
 
+const { VITE_PANCAKESWAP_URL, VITE_UNISWAP_URL } = import.meta.env;
+
 const Home = () => {
   return (
     <>
@@ -15,8 +17,8 @@ const Home = () => {
         <div className="max-w-5xl mx-auto text-center space-y-6 px-4">
           <h2 className="text-2xl font-semibold text-azul">Compra D10$</h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <CtaButton href="https://pancakeswap.finance/">Comprar en PancakeSwap</CtaButton>
-            <CtaButton href="https://app.uniswap.org/" variant="outline">
+            <CtaButton href={VITE_PANCAKESWAP_URL}>Comprar en PancakeSwap</CtaButton>
+            <CtaButton href={VITE_UNISWAP_URL} variant="outline">
               Comprar en Uniswap
             </CtaButton>
           </div>
