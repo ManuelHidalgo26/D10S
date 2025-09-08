@@ -12,7 +12,7 @@ const Header = () => {
     <header className="sticky top-0 bg-blanco border-b border-gris z-50">
       <div className="max-w-5xl mx-auto flex items-center justify-between p-4">
         <a href="#" className="flex items-center space-x-2">
-          <img src={logo} alt="Logo D10$" className="h-8 w-8" />
+          <img src={logo} alt="Logo D10$" className="h-8 w-8" loading="lazy" />
           <span className="font-bold text-azul">D10$</span>
         </a>
         <nav
