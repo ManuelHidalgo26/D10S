@@ -1,3 +1,4 @@
+
 # --- Node / Vite ---
 node_modules/
 dist/
@@ -58,3 +59,4 @@ temp/
 # Nota: por defecto permitimos .svg porque es texto.
 # Si también te lo bloquean, descomenta:
 # *.svg
+
