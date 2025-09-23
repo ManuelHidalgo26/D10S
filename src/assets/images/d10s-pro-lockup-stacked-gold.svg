@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" role="img" aria-label="D10$ lockup stacked">
+  <defs>
+    <mask id="ring-mask-stack">
+      <rect width="100%" height="100%" fill="white"/>
+      <rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(-90 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(-54 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(-18 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(18 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(54 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(90 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(126 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(162 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(198 300 300)" /><rect x="287" y="64" width="26" height="36" rx="4" ry="4" transform="rotate(234 300 300)" />
+    </mask>
+    <mask id="disc-cut-stack">
+      <rect width="100%" height="100%" fill="white"/>
+      <g transform="translate(44,52)">
+        <text x="256" y="306" text-anchor="middle" dominant-baseline="middle"
+          font-family="Inter, Segoe UI, Roboto, system-ui, -apple-system, Arial, sans-serif"
+          font-weight="900" font-size="210" letter-spacing="4" fill="black">D10</text>
+      </g>
+    </mask>
+  </defs>
+
+  <!-- mark -->
+  <circle cx="300" cy="300" r="244" fill="none" stroke="#C9A227" stroke-width="8" opacity="0.25"/>
+  <circle cx="300" cy="300" r="230" fill="none" stroke="#C9A227" stroke-width="24" mask="url(#ring-mask-stack)"/>
+  <circle cx="300" cy="300" r="178" fill="#C9A227" mask="url(#disc-cut-stack)"/>
+  <circle cx="300" cy="300" r="6" fill="#C9A227" opacity="0.45"/>
+
+  <!-- wordmark below -->
+  <text x="50%" y="640" text-anchor="middle"
+        font-family="Inter, Segoe UI, Roboto, system-ui, -apple-system, Arial, sans-serif"
+        font-weight="900" font-size="200" letter-spacing="2" fill="#C9A227">D10$</text>
+</svg>
