@@ -1,7 +1,7 @@
 import React from 'react';
-import hero from '../assets/images/hero-argentina.jpg';
+// import hero from '../assets/images/hero-argentina.jpg';
 import CtaButton from './CtaButton';
-
+import hero from '../assets/images/glaciar-al-atardecer.png'
 const About = () => {
   return (
     <section id="about" className="py-16">
