@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # --- Node / Vite ---
 node_modules/
@@ -60,3 +61,9 @@ temp/
 # Si también te lo bloquean, descomenta:
 # *.svg
 
+=======
+node_modules/
+dist/
+.env.local
+.DS_Store
+>>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
