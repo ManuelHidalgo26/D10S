@@ -11,3 +11,12 @@ body {
   color: #154360;
   font-family: 'Inter', sans-serif;
 }
+.redes-sociales a {
+  color: #F8F9F9;
+  text-decoration: none;
+  text-align: center;
+}
+footer a:hover {
+  background-color: black;
+  transition: 0.2s;
+}

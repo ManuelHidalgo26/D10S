@@ -1,7 +1,7 @@
 import React from 'react';
 import hero from '../assets/images/glaciar-al-atardecer.png';
 import CtaButton from './CtaButton';
-
+import "../styles/globals.css";
 const Hero = () => {
   return (
     <section

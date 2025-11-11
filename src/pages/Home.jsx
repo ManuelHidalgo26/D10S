@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import CtaButton from '../components/CtaButton';
-
+import "../styles/globals.css";
 const Home = () => {
   return (
     <>

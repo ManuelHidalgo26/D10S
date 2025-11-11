@@ -1,8 +1,10 @@
 import React from 'react';
 // import logo from '../assets/images/logo-d10s.svg';
 import CtaButton from './CtaButton';
-import Logo from "../assets/images/d10s-pro-lockup-stacked-gold.svg";
-
+// import Logo from "../assets/images/d10s-pro-lockup-stacked-gold.svg";
+// import Logo from "../assets/images/Logo-d1O$.jpeg"
+import Logo from "../assets/images/Logo1dios.jpeg" 
+import "../styles/globals.css";
 const Header = () => {
   return (
     <header className="sticky top-0 bg-blanco border-b border-gris z-50">

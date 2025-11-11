@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../styles/globals.css";
 const CtaButton = ({ variant = 'primary', href, children }) => {
   const base =
     'inline-block px-6 py-3 rounded-md font-semibold transition-transform transform hover:scale-105';
