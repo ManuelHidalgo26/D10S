@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # D10S
 
 This repository demonstrates how to manage binary files by using [Git LFS](https://git-lfs.github.com/) to avoid storing large binaries directly in Git.
@@ -31,6 +32,8 @@ The file `pixel.png` is tracked with Git LFS and referenced from `index.html`:
 2. Commit as usual; Git LFS stores the binaries separately and keeps the repository lightweight.
 3. Ensure all collaborators run `git lfs install` to enable LFS support locally.
 =======
+=======
+>>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
 =======
 >>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
 =======
@@ -82,6 +85,9 @@ Las contribuciones son bienvenidas. Para colaborar:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
+=======
 >>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
 =======
 >>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
