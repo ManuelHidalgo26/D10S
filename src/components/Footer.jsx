@@ -7,8 +7,8 @@ const Footer = () => {
         
         <h2>Redes socials:</h2>
         <section className="Redes-sociales">
-        <div><a href="">Intagram</a></div>
-        <div><a href="">Twitter</a></div>
+        <div><a href="https://www.instagram.com/dioscoin.ok?igsh=MTZidmp0cjAzaXRnaw==">Intagram</a></div>
+        <div><a href=" https://x.com/D10S_oficial?t=INb2cEciNzv4qvqvuQakxA&s=08">Twitter</a></div>
         <div><a href="">TikTok</a></div>
         <div><a href="">Mail</a></div> 
         </section>       

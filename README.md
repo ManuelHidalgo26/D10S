@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # D10S
 
 This repository demonstrates how to manage binary files by using [Git LFS](https://git-lfs.github.com/) to avoid storing large binaries directly in Git.
@@ -83,9 +80,7 @@ Las contribuciones son bienvenidas. Para colaborar:
 3. Realiza tus cambios y asegúrate de que el proyecto funcione ejecutando `npm test`.
 4. Abre un Pull Request describiendo los cambios propuestos.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 >>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
 =======
 >>>>>>> 4c2304e74f4fb7e8a98a2db4bc315b92830e4def
